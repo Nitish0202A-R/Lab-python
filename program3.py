@@ -1,0 +1,6 @@
+t = (1, 2, 3, 4, 5)
+print(f"Tuple: {t}")
+print(f"Length: {len(t)}")
+print(f"Is 3 in tuple? {'Yes' if 3 in t else 'No'}")
+print(f"Is 10 in tuple? {'Yes' if 10 in t else 'No'}")
+print("Items:", *t)
